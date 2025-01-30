@@ -158,7 +158,9 @@ main > section{
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: ;
+    align-items: center;
+    padding: 30px;
+    gap: 90px;
 }
 .sponsor-info{
     max-width: 540px;
@@ -171,6 +173,16 @@ main > section{
 }
 .sponsor-companies img{
     filter: grayscale(100%);
+}
+.footer{
+    background-color: #FFF4E7;
+    text-align: center;
+    padding-top: 15px;
+    max-width: 1440px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
@@ -201,8 +213,8 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
     }
-    .featured-architect img{
-        width: 100%;
+    .featured-architect{
+        width: 400px;
     }
 
 }
